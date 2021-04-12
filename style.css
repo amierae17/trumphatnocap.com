@@ -1,0 +1,201 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.banner {
+	position: relative;
+	background: red url(/images/trumphat.png);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	white-space: nowrap;
+	border-bottom: solid black 4px;
+}
+.banner:before {
+	content: '/00a0';
+	display: inline-block;
+	height: 100%;
+	width: 0px;
+	vertical-align: middle;
+}
+.banner:after {
+	content: '/00a0';
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5)
+}
+.banner > hgroup {
+	position: relative;
+	display: inline-block;
+	max-width: 720px;
+	margin: 0 auto;
+	vertical-align: middle;
+	white-space: normal;
+	z-index: 100;
+}
+.banner > hgroup > h1 {
+	color: #fff;
+	font: 900 48px/60px arial;
+	text-transform: capitalize;
+	text-shadow: 0px 2px 3px rgba(0,0,0.25)
+}
+.banner > hgroup > h2 {
+	color: #fff;
+	font: 100 30px/36px arial;
+	font-family: fantasy;
+	text-transform: capitalize;
+	text-shadow: 0px 2px 3px rgba(0,0,0.25)
+}
+.banner > hgroup > a{
+	display: inline-block;
+	background-color: red;
+	border-radius: 24px;
+	margin: 12px 0 0 0;
+	padding: 9px 24px;
+	color: #fff;
+	font: 500 24px/36px arial;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.banner > hgroup > a:hover {
+	background: navy;
+}
+li > a > h1:hover {
+	background: navy;
+}
+li > a > h1 {
+	display: inline-block;
+	background-color: red;
+	border-radius: 16px;
+	margin: 8px 0 0 0;
+	padding: 7px 10px;
+	color: #fff;
+	font: 500 20px/36px arial;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.product-grid {
+	list-style-type: none;
+}
+ul.product-grid {
+	border-width: 4px;
+	box-sizing: border-box;
+	border-color: black;
+	border-style: groove;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+ul.product-grid {
+}
+ul.product-grid > li {
+	border-style: groove;
+	border-color: black;
+	width: 33.53333333333333333%;
+	text-align: center;
+	float:left;
+	height: 400px;
+	box-sizing: border-box;
+	border-width: 4px 4px 4px 4px;
+	margin-right: -4px;
+	margin-top: -4px;
+}
+ul.product-grid > li > img {
+	
+}
+ul.product-grid > li > hgroup{
+	
+}
+ul.product-grid > li > hgroup > img {
+    max-width: 100%;
+    max-height: 200px;
+}
+ul.product-grid > li > hgroup > h3{
+	color: black;
+  
+}
+ul.product-grid > li > hgroup >h4 {
+	
+}	
+ul.product-grid > li > hgroup >h5 {
+	
+}
+ul.produt-grid > li > span {
+	float: left;
+	text-align: center
+}
+section {
+	border: solid black 4px;
+	margin: 10px;
+}
+.dropdown > a {
+	margin: auto;
+	width: 50%;
+	border: 3px black;
+	padding; 10px;
+	display: inline-block;
+	background-color: red;
+	border-radius: 24px;
+	margin: 12px 0 12px 0;
+	padding: 9px 24px;
+	color:#fff;
+	font: 500 24px/36px arial;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 2%;
+	
+}
+.product-details > section > .photo-gallery > .primary-photo {
+	background-image: url(images/OIP2Z52WKU4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 450px;
+	height: 450px;
+	border: solid;
+}
+div.product-details > section > h1 {
+	text-align: center;
+	padding: 15px;
+	font-size: 50px;
+}
+div.photo-gallery > div.secondary-photos > img {
+	width: 17%;
+	border: solid;
+	margin: 5px;
+}
+div.secondary-photos {
+	text-align: center;
+}
+.product-details > section {
+	text-align: center;
+	
+}
+@media all and (max-width : 600px) {
+	.product-details > section > .photo-gallery > .primary-photo {
+    	width: 90%;
+    	height: calc(100vw * 0.75);
+	}
+}
+@media all and (min-width): 1100px){
+	.product-details{
+    	overflow: hidden;
+    	min-height: 100%;
+    	
+	}
+}

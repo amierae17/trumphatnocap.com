@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    	<title>Trump Hat</title>
+    	<link rel="stylesheet" href="/style.css" />
+    	<link rel="stylesheet" href="https://cdn.shipcart.com/themes/v3.0.29/default/snipcart.css" />
+	</head>
+	<body>
+    	<div class="product-details">
+        	<section>
+            	<h1>
+                	Trump Black Cap
+            	</h1>
+            	<div class="photo-gallery">
+                	<div class="primary-photo center" style="background-image: url(images/whiteblacktrumpcap/get.jpg)">
+                	</div>
+                	<div class="secondary-photos">
+                	<img src="images/whiteblacktrumpcap/get.jpg">
+                	<img src="images/whiteblacktrumpcap/sup.jpg">
+                	<img src="images/whiteblacktrumpcap/champion-dad-hat-black-front-604f974052536.jpg">
+                	<img src="images/whiteblacktrumpcap/champion-dad-hat-white-front-604f974052c11.jpg">
+                    <img src="images/whiteblacktrumpcap/champion-dad-hat-grey-front-604f974052964.jpg">
+                	</div>
+            	</div>
+        	</section>
+        	<section>
+            	<h2>
+                	$30.00
+            	</h2>
+            	<p>
+               	Made in China
+            	</p>
+            	<form>
+                 	<label>
+                     	<input type="radio" name="size" value="small">
+                    	Small
+                	</label>
+                    	<input type="radio" name="size" value="small">
+                    	Medium
+                    	<label>
+                     	<input type="radio" name="size" value="small">
+                    	Large
+                    	</label>                         	
+            	</form>
+            	<div class="dropdown"> 
+                	<a href="#" class="snipcart-add-item"
+                   	data-item-id="starry-night"
+                   	data-item-price="79.99"
+                   	data-item-url="/paintings/starry-night"
+                   	data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                   	data-item-image="/assets/images/starry-night.jpg"
+                   	data-item-name="The Starry Night">
+                	Add to Cart
+                	</a>
+            	</div> 
+        	</section>
+    	</div>
+    	<script async src="https://cdn.snipcart.com/themes/v3.0.29/default/snipcart.js"></script>
+    	<div id="snipcart" data-config-model-style="side" data-api
+    	key="MDhjY2JmMzAtOTkyOS00NTA1LThiODMtNGRiZjFiNjczMjcxNjM3NDgzOTY3MTg4NjQ4NzY1" hidden></div>
+    	<script type="text/javascript">
+        	$( ".photo-gallery > img" ).click(function() {
+        	var imgSrc= $(this).attr("src");
+        	$('.primary-photo').attr('style',"background-image: url("+imgSrc+");");
+        	});
+    	</script>
+	</body>
+</html>
