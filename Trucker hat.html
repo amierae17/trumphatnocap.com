@@ -60,9 +60,9 @@
     	<div id="snipcart" data-config-model-style="side" data-api
     	key="MDhjY2JmMzAtOTkyOS00NTA1LThiODMtNGRiZjFiNjczMjcxNjM3NDgzOTY3MTg4NjQ4NzY1" hidden></div>
     	<script type="text/javascript">
-        	$( ".photo-gallery > img" ).click(function() {
+        	$( ".photo-gallery > .secondary-photos > img" ).click(function() {
         	var imgSrc= $(this).attr("src");
-        	$('.primary-photo center').attr('style',"background-image: url("+imgSrc+");");
+        	$('.primary-photo').attr('style',"background-image: url("+imgSrc+");");
         	});
     	</script>
 	</body>
